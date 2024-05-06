@@ -229,7 +229,7 @@ const LayoutRes = ({ children }) => {
               color: themeMode === "light" ? "#000" : "#fff",
             }}
           >
-             sumair©{new Date().getFullYear()} Created by Muhammad Sumair
+             CopyRight ©{new Date().getFullYear()} Created by Muhammad Sumair
           </Footer>
         </Layout>
       </Layout>
