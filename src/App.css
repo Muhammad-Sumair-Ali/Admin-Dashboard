@@ -1,0 +1,91 @@
+*{
+  margin:0px;
+}
+.h-100vh{
+  min-height:100vh;
+  height:100vh auto;
+}
+.active-link {
+  color: red !important; 
+}
+.page-content-wrapper{
+  border-left: 0.01rem solid #c4c0c0;
+}
+
+.usericon{
+  border-radius:50%;
+  width: 3rem;
+}
+.m-2{
+  margin:2rem;
+  margin-top: 50px;
+} 
+.signup{
+  margin:140px;
+}
+.mb-2{
+  margin-bottom: 2rem;
+}
+input{
+  height: 38px;
+  margin-bottom: 5px;
+}
+.user{
+  border: 00.01rem solid #ada9a9;
+  display: flex;
+  margin:5px;
+  align-content:center;
+  border-radius:10px;
+}
+.user-i {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap:5px;
+  margin: 5px;
+}
+.user-i label{
+  margin-right:8px;
+}
+.user-i i:hover{
+  color:#001629 !important;
+}
+.user-i img {
+  border-radius: 50%;
+}
+
+/* App.css */
+
+/* Header styles */
+.logo {
+  width: 120px; /* Adjust as needed */
+  height: 31px; /* Adjust as needed */
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Features section styles */
+.features {
+  padding: 50px 0;
+}
+
+/* Call-to-action section styles */
+.cta {
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Footer styles */
+.ant-layout-footer {
+  text-align: center;
+  background: #001529;
+  color: #fff;
+  padding: 24px 0;
+}
