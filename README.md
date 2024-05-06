@@ -1,17 +1,38 @@
-## Running React on Replit
+# Admin Dashboard Project by Muhammad Sumair Ali
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## Description
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+This is an admin dashboard project designed to provide essential functionalities such as user authentication, data display, and theme customization.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+## Features
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+- **User Authentication**: Allows users to sign up, log in, and log out securely.
+- **User Data Display**: Displays user information after authentication.
+- **Local Storage**: Saves user data and theme preferences to the local storage for persistent user experience.
+- **Page Navigation**: Includes pages for Home, Contact, Team, Login, Signup, and Dashboard.
+- **Dark Mode**: Offers a dark mode feature for improved visibility in low-light environments.
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+## Pages
 
-### Typescript
+- **Home**: Landing page displaying project overview and features.
+- **Contact**: Page for contacting support or sending feedback.
+- **Team**: Displays information about the project team or organization.
+- **Login**: User authentication page for logging into the dashboard.
+- **Signup**: User registration page for creating a new account.
+- **Dashboard**: Main admin dashboard displaying relevant data and statistics.
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+## Usage
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the project using `npm start`.
+4. Access the dashboard in your browser.
+
+## Technologies Used
+
+- React.js
+- Ant Design
+- React Router
+- Local Storage API
+
+
